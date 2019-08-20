@@ -34,6 +34,7 @@ public class GraphDB {
     public GraphDB(String dbPath) {
         try {
             File inputFile = new File(dbPath);
+            System.out.println(inputFile);
             FileInputStream inputStream = new FileInputStream(inputFile);
             // GZIPInputStream stream = new GZIPInputStream(inputStream);
 
